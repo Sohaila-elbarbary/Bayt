@@ -1,0 +1,774 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  direction: rtl;
+  background-color: #eee;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  margin: 30px 0;
+}
+
+/* end global */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2784fc;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+nav .logo img {
+  width: 130px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 2px;
+  margin: 5px;
+}
+
+nav ul li a {
+  padding: 8px;
+  color: #fff;
+  font-size: 20px;
+}
+
+nav .ul-left .border {
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+nav .ul-left .active {
+  background-color: #fff;
+}
+
+nav .ul-left .active a {
+  color: black;
+}
+
+header {
+  background-image: url("../images/cover.webp");
+  height: 500px;
+}
+
+header .main-header {
+  height: 300px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+form input,
+form select,
+form button {
+  width: 30%;
+  padding: 10px;
+}
+
+form button {
+  background-color: #2784fc;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+/*  */
+/* start jobs */
+.jobs {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  background-color: #fff;
+}
+
+.jobs .link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs a {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #2784fc;
+  color: #2784fc;
+  font-size: 19px;
+  display: block;
+  margin: 7px;
+}
+
+/* end jobs */
+
+/* startb search-jobs */
+.search-jobs {
+  background-color: #eee;
+}
+
+.search-jobs .tittle {
+  text-align: center;
+  font-size: 30px;
+}
+
+.search-jobs h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.search-jobs .card {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-card {
+  width: 70%;
+  margin: auto;
+}
+
+.search-jobs h3 {
+  background-color: #fff;
+  padding: 20px;
+  color: black;
+  font-size: 30px;
+  font-family: tahoma;
+}
+
+.search-jobs .card ul li a {
+  font-size: 20px;
+  color: #2784fc;
+}
+
+.can-jobs {
+  background-color: #2784fc;
+  padding: 20px;
+}
+
+.search-jobs img {
+  align-items: center;
+}
+
+.bet-com img {
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+
+/* end section search-jobs */
+
+/* start section company */
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.company h2 {
+  font-size: 55px;
+  font-weight: bolder;
+  color: #000;
+  padding-top: 30px;
+}
+
+.company a {
+  font-size: 16px;
+  border: 1px solid #828a93;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #828a93;
+}
+
+/* end company */
+
+/* start agancies */
+.agencies {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.agencies h2 {
+  text-align: center;
+  color: #000;
+  font-size: 55px;
+}
+
+.agance {
+  background-color: #eee;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.bt button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.mally {
+  min-width: 30%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.mally a {
+  font-family: tahoma;
+  color: #000;
+}
+
+.agencies .mally {
+  height: 100px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.agance a {
+  text-transform: uppercase;
+  padding: 20px;
+  color: #000;
+}
+
+.agance .mally img {
+  width: 80px;
+  margin-right: 35px;
+}
+
+.agencies .bt {
+  display: flex;
+  justify-content: center;
+  color: #828a93;
+}
+
+.agencies .but {
+  color: #828a93;
+  border: 1px solid #828a93;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+/* end agancies */
+
+/* start section country */
+
+.country .container {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.egypt {
+  width: calc((100% - 40px) / 4);
+  margin: 10px 5px;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.egypt img {
+  width: 100%;
+  height: 250px;
+  display: block;
+  transition: all 1s;
+}
+
+.egypt img:hover {
+  box-shadow: 10px 10px 20px gainsboro;
+  transform: scale(1.3);
+}
+
+.country .egypt .absolute {
+  position: absolute;
+  top: 35%;
+  right: 20%;
+  font-size: 30px;
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+}
+
+.country .egypt .absolute span {
+  display: block;
+}
+
+/* end country */
+
+/* start get-jobs */
+
+.get-jobs h2 {
+  padding: 20px 0;
+  margin: 20px 0;
+  text-align: center;
+  color: #000;
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.one {
+  justify-content: space-evenly;
+}
+
+.get-jobs .one {
+  background-color: #fff;
+  width: calc((100% - 180px) / 3);
+  margin: 15px;
+  padding: 15px;
+}
+
+.get-jobs .one img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.get-jobs h3 {
+  color: #fff;
+  color: #2784fc;
+  font-size: 50px;
+  text-align: center;
+}
+
+.get-jobs p {
+  color: grey;
+  font-size: 30px;
+}
+
+.get-jobs .author {
+  color: rgb(56, 53, 53);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* end get-jobs */
+
+/* staert footer */
+footer {
+  margin: 20px 0;
+  padding: 25px;
+  background-color: #fff;
+}
+
+footer h2 {
+  margin: 5px;
+  padding: 10px;
+  color: #a6afb9;
+}
+
+.many-jobs {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding: 20px 0;
+}
+
+.many-jobs-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.many-jobs ul li a {
+  line-height: 1.4;
+  color: #a6afb9;
+}
+
+.many-jobs-two ul li a {
+  font-weight: lighter;
+  margin: 10px;
+  padding: 15px;
+  color: #a6afb9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.many-jobs ul li a:hover {
+  color: #2784fc;
+}
+
+.about {
+  display: flex;
+}
+
+/*  */
+.app {
+  display: flex;
+}
+
+.icone {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spa span {
+  color: #b2c1d1;
+  display: block;
+}
+
+.line {
+  position: relative;
+}
+
+.line img {
+  position: absolute;
+  bottom: 6px;
+  left: -31px;
+}
+
+.copy {
+  background-color: #fff;
+  display: flex;
+}
+
+.copy span {
+  color: #3b3b3b;
+}
+
+.copy ul {
+  display: flex;
+}
+
+.copy span {
+  color: #a6afb9;
+}
+
+.copy .link ul li a {
+  color: #a6afb9;
+  padding: 5px;
+}
+
+/* end footer */
+
+@media screen and (max-width: 850px) {
+  nav ul li {
+    display: none;
+  }
+  nav .ul-left {
+    display: none;
+  }
+  nav .ul-left .border {
+    display: none;
+  }
+  .jobs h2 {
+    text-align: center;
+    margin: 10px auto;
+  }
+  header form {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+  }
+  header form input {
+    margin: 10px;
+    width: 180px;
+  }
+  header form select {
+    margin: 10px;
+    width: 180px;
+  }
+  header form button {
+    margin: 10px;
+    width: 180px;
+  }
+  .jobs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-jobs {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .search-jobs {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .container-card .card {
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .search-jobs .bet-com img {
+    width: 100%;
+  }
+  .company a {
+    width: 100%;
+  }
+  .company img {
+    width: 100%;
+  }
+  .company h2 {
+    font-size: 15px;
+  }
+  .agance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .mally a {
+    font-size: 12px;
+  }
+  .country .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+  }
+  .egypt {
+    width: 100%;
+  }
+  .get-jobs .author .one {
+    width: 100%;
+    text-align: center;
+  }
+  .get-jobs .author {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer .many-jobs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  footer .many-jobs {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin: 10px;
+  }
+  footer .many-jobs-two {
+    display: none;
+  }
+}
+/*  */
+@media (min-width: 255px) and (max-width: 255px) {
+  form {
+    padding: 20px;
+    margin: auto;
+    padding: 20px;
+  }
+  header form input {
+    margin: auto;
+    width: 180px;
+  }
+  header form {
+    padding: 10px;
+    margin: 20px;
+  }
+  header form select {
+    margin: auto;
+    width: 180px;
+  }
+  header form button {
+    margin: auto;
+    width: 180px;
+  }
+  .jobs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  link {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+  }
+  link a {
+    text-align: center;
+  }
+  .search-jobs {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .card {
+    justify-content: space-between;
+  }
+  .card ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-jobs {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .search-jobs {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .container-card {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .container-card .card {
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .search-jobs .bet-com img {
+    width: 100%;
+  }
+  .company a {
+    width: 100%;
+  }
+  .company img {
+    width: 100%;
+  }
+  .company h2 {
+    font-size: 15px;
+  }
+  .agance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .mally a {
+    font-size: 12px;
+  }
+  .country .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .egypt {
+    width: 100%;
+  }
+
+  .one {
+    width: 100%;
+  }
+    .egypt {
+    width: 100%;
+  }
+  .get-jobs .author .one {
+    width: 100%;
+    text-align: center;
+  }
+  .get-jobs .author {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .get-jobs .author img {
+      width: 100px;
+      width: 80%;
+    }
+    footer .copy {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+    }
+      footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .many-jobs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .many-jobs {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin: 10px;
+  }
+  footer .many-jobs-two {
+    display: none;
+  }
+}
